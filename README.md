@@ -35,15 +35,15 @@ python main.py
 
 ### Adjust Confidence Threshold
 
-Edit `main.py` line 147:
+Edit `main.py`line 147:
 
 ```python
-THRESHOLD = 0.3  # Lower = more detections, higher = fewer false positives
+THRESHOLD = 0.3  # Lower = more detections orhigher = fewer false positives
 ```
 
 ### Change Model
 
-Edit `main.py` line 145:
+Edit `main.py`line 145:
 
 ```python
 MODEL_PATH = 'yolov8s.pt' or yolov8n.pt or yolov8s.pt
